@@ -10,7 +10,7 @@ public class GravityControl : MonoBehaviour
     private Rigidbody rb;
     public Collider coll;
     
-    private float forceMagnitude = 9.81f;
+    public float forceMagnitude = 9.81f;
     [SerializeField]
     public Vector3 forceDirection;
 
