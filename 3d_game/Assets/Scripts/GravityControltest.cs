@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GravityControl : MonoBehaviour
+public class GravityControltest : MonoBehaviour
 {
     public float raycastDistance = 100f;
     public LayerMask mask;
@@ -12,7 +12,7 @@ public class GravityControl : MonoBehaviour
     
     private float forceMagnitude = 9.81f;
     [SerializeField]
-    public Vector3 forceDirection;
+    private Vector3 forceDirection;
 
     private void Start()
     {
