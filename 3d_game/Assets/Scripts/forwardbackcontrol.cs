@@ -3,16 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GravityControl : MonoBehaviour
+public class forwardbackcontrol : MonoBehaviour
 {
     public float raycastDistance = 100f;
     public LayerMask mask;
     private Rigidbody rb;
     public Collider coll;
-    
+    private Vector3 forceDirection = new Vector3(0,0,-1f);
     private float forceMagnitude = 9.81f;
-    [SerializeField]
-    private Vector3 forceDirection;
 
     private void Start()
     {
