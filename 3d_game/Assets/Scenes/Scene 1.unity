@@ -1032,10 +1032,10 @@ MonoBehaviour:
   clip0: {fileID: 8300000, guid: 6a51d8d0e1cccb34fb608e8c3cd57c90, type: 3}
   clip1: {fileID: 8300000, guid: eaf33493f02f675439fb18d7533ea7e3, type: 3}
   clip2: {fileID: 8300000, guid: 26e2c1380ea70294d8e0935ae1c7dde1, type: 3}
-  clip3: {fileID: 0}
-  clip4: {fileID: 0}
-  clip5: {fileID: 0}
-  clip6: {fileID: 0}
+  clip3: {fileID: 8300000, guid: 12fb692a96670f540889fe2e3eceb7c3, type: 3}
+  clip4: {fileID: 8300000, guid: 63b4a51ad14e15346890fbbdbea416f0, type: 3}
+  clip5: {fileID: 8300000, guid: 3ffc978ad0c79924e8e56f004e423732, type: 3}
+  clip6: {fileID: 8300000, guid: 5827e1acbd1d30f48b40ffdd9dbb5618, type: 3}
 --- !u!4 &958206560
 Transform:
   m_ObjectHideFlags: 0
